@@ -171,7 +171,7 @@ jobs:
           print("Manifest now references the existing logo.")
           PY
 
-          test -f android/app/src/main/res/drawable-nodpi/Flash_Mode_logo.png
+          test -f android/app/src/main/res/drawable-nodpi/flash_mode_logo.png
 
       - name: Build debug APK
         shell: bash
